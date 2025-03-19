@@ -1,0 +1,134 @@
+/* Overall page container */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #d6eaf8, #ffffff); /* Gradient background */
+    font-family: Arial, sans-serif;
+}
+
+/* Main app container */
+.app-container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Weather container */
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 350px;
+}
+
+/* Title */
+.title {
+    font-size: 22px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+/* Subtitle */
+.subtitle {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Weather image */
+.weather-icon {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Search bar container */
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 280px;
+    border: 2px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    background: white;
+    padding: 5px;
+}
+
+/* Search input */
+.search-input {
+    flex: 1;
+    height: 36px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Search button */
+.search-button {
+    height: 36px;
+    padding: 0 15px;
+    border: none;
+    background: black;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border-left: 2px solid black;
+}
+
+.search-button:hover {
+    background: #333;
+}
+
+/* Weather details section */
+.weather-data {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Weather icons in details */
+.col img {
+    width: 30px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+/* Temperature */
+.temperature {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Location */
+.location {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Weather description */
+.weather-description {
+    font-size: 14px;
+    color: gray;
+}
